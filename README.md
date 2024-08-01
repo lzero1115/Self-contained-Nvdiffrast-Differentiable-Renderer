@@ -1,8 +1,7 @@
 # Nvdiffrast Differentiable Renderer  
 
 My own style Differentiable Renderer based on Nvidffrast framework.  
-Reference paper:  
-**Modular Primitives for High-Performance Differentiable Rendering**
+Reference paper: **Modular Primitives for High-Performance Differentiable Rendering**  
 Samuli Laine, Janne Hellsten, Tero Karras, Yeongho Seol, Jaakko Lehtinen, Timo Aila
 ACM Transactions on Graphics 39(6) (proc. SIGGRAPH Asia 2020)  
 For more details, check out the <https://nvlabs.github.io/nvdiffrast/>.
