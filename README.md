@@ -4,7 +4,7 @@ My own style Differentiable Renderer based on Nvidffrast framework.
 Reference paper: **Modular Primitives for High-Performance Differentiable Rendering**
 Samuli Laine, Janne Hellsten, Tero Karras, Yeongho Seol, Jaakko Lehtinen, Timo Aila
 ACM Transactions on Graphics 39(6) (proc. SIGGRAPH Asia 2020)  
-For more details, check out the [Nvdiffrast]{https://nvlabs.github.io/nvdiffrast/}.
+For more details, check out the <https://nvlabs.github.io/nvdiffrast/>.
 
 ## Installation and Usage
 
@@ -13,7 +13,7 @@ For more details, check out the [Nvdiffrast]{https://nvlabs.github.io/nvdiffrast
 	'''sh
 	python render.py  
 
-<img src="images/test.png" alt="armadillo" width="600"/> 
+<img src="imgs/test.png" alt="armadillo" width="600"/> 
 
 ## Project Structure
 1. geometry_utils.py: Geometry processing toolbox, which contains various operations on tensorized mesh data for some operations on shapes under differentiable rendering (e.g. laplace-beltrami operator)  
@@ -27,6 +27,6 @@ Traditional rasterization, a process that converts vector graphics into raster i
 
 ## My implementation
 
-Self-written simple geometry processing library for differentiable shape manipulation, self-written camera system integrated on Nvdiffrast, and [envmap]{https://graphics.stanford.edu/papers/envmap/} integrated.
+Self-written simple geometry processing library for differentiable shape manipulation, self-written camera system integrated on Nvdiffrast, and envmap <https://graphics.stanford.edu/papers/envmap/> integrated.
 
 
