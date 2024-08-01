@@ -27,6 +27,8 @@ Traditional rasterization, a process that converts vector graphics into raster i
 
 ## My implementation
 
-Self-written simple geometry processing library for differentiable shape manipulation, self-written camera system integrated on Nvdiffrast, and **envmap** <https://graphics.stanford.edu/papers/envmap/> integrated.
+1. Self-written simple geometry processing library for differentiable shape manipulation
+2. Self-written camera system integrated on Nvdiffrast, and **envmap** <https://graphics.stanford.edu/papers/envmap/> integrated.
+3. Flexible and easy to modify differentiable renderer applied to different tasks.
 
 
