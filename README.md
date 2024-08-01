@@ -9,16 +9,15 @@ For more details, check out the <https://nvlabs.github.io/nvdiffrast/>.
 ## Installation and Usage
 
 1. Git clone this repository and install all the packages listed in the requirements.txt.  
-2. Run in the terminal:  
-	'''sh
+2. Run below in the terminal:  
 	python render.py  
-
+and you will see:
 <img src="imgs/test.png" alt="armadillo" width="600"/> 
 
 ## Project Structure
-1. geometry_utils.py: Geometry processing toolbox, which contains various operations on tensorized mesh data for some operations on shapes under differentiable rendering (e.g. laplace-beltrami operator)  
-2. render_utils.py: Camera system for the renderer, which is consistent to the OpenGL default camera.  
-3. render.py: Self-written Differentiable rendering system based Nvdiffrast, currently includes global lighting system and direct and normal rendering of meshes.  
+1. **geometry_utils.py**: Geometry processing toolbox, which contains various operations on tensorized mesh data for some operations on shapes under differentiable rendering (e.g. laplace-beltrami operator)  
+2. **render_utils.py**: Camera system for the renderer, which is consistent to the OpenGL default camera.  
+3. **render.py**: Self-written Differentiable rendering system based Nvdiffrast, currently includes global lighting system and direct and normal rendering of meshes.  
 
 
 ## Overview of Nvdiffrast
@@ -27,6 +26,6 @@ Traditional rasterization, a process that converts vector graphics into raster i
 
 ## My implementation
 
-Self-written simple geometry processing library for differentiable shape manipulation, self-written camera system integrated on Nvdiffrast, and envmap <https://graphics.stanford.edu/papers/envmap/> integrated.
+Self-written simple geometry processing library for differentiable shape manipulation, self-written camera system integrated on Nvdiffrast, and **envmap** <https://graphics.stanford.edu/papers/envmap/> integrated.
 
 
