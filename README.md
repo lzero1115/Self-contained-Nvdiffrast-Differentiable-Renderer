@@ -29,6 +29,11 @@ Traditional rasterization, a process that converts vector graphics into raster i
 
 1. Self-written simple geometry processing library for differentiable shape manipulation
 2. Self-written camera system integrated on Nvdiffrast, and **envmap** <https://graphics.stanford.edu/papers/envmap/> integrated.
-3. Flexible and easy to modify differentiable renderer applied to different tasks.
+3. Flexible and easy to modify differentiable renderer applied to different tasks like shape optimization below:
+<div style="display: flex; justify-content: space-around;">
+  <img src="imgs/source.png" alt="image1" width="200"/>
+  <img src="imgs/target.png" alt="image2" width="200"/>
+  <img src="imgs/result.png" alt="image3" width="200"/>
+</div>
 
 
