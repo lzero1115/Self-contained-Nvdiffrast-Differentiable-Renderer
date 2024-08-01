@@ -31,10 +31,11 @@ Traditional rasterization, a process that converts vector graphics into raster i
 2. Self-written camera system integrated on Nvdiffrast, and **envmap** <https://graphics.stanford.edu/papers/envmap/> integrated.
 3. Flexible and easy to modify differentiable renderer applied to different tasks like shape optimization below (**from left to right: source, target, result**):
 <div style="display: flex; justify-content: space-around;">
-  <img src="imgs/source.png" alt="image1" width="300"/>
-  <img src="imgs/target.png" alt="image2" width="300"/>
-  <img src="imgs/result.png" alt="image3" width="300"/>
+  <img src="imgs/source.png" alt="image1" width="250"/>
+  <img src="imgs/target.png" alt="image2" width="250"/>
+  <img src="imgs/result.png" alt="image3" width="250"/>
 </div>
+
 For more details, you can check another TOG paper <https://rgl.epfl.ch/publications/Nicolet2021Large>.  
 Have fun!
 
