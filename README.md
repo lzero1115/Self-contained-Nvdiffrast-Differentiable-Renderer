@@ -9,9 +9,10 @@ For more details, check out the <https://nvlabs.github.io/nvdiffrast/>.
 ## Installation and Usage
 
 1. Git clone this repository and install all the packages listed in the requirements.txt.  
-2. Run below in the terminal:  
+2. Run below in the terminal and you will see the figure:
+'''
 	python render.py  
-and you will see:
+'''
 <img src="imgs/test.png" alt="armadillo" width="600"/> 
 
 ## Project Structure
